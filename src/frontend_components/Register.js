@@ -7,13 +7,13 @@ import yourImage from "./register.jpg";
 
 // Initialize Firebase with your configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCX9RkRgsItwXHCaSHDPVu9GERS9HvQx8c",
-  authDomain: "face-recognition-system-4ef22.firebaseapp.com",
-  projectId: "face-recognition-system-4ef22",
-  storageBucket: "face-recognition-system-4ef22.appspot.com",
-  messagingSenderId: "1049829103446",
-  appId: "1:1049829103446:web:b37f0ef8ceaa5c5e2b28f7",
-  measurementId: "G-8MH61KEDZX"
+  apiKey: "your-key",
+  authDomain: "your-domain",
+  projectId: "your-projectID",
+  storageBucket: "your-bucket",
+  messagingSenderId: "your-id",
+  appId: "ypur-appID",
+  measurementId: "your-mID"
 };
 
 const app = initializeApp(firebaseConfig);
