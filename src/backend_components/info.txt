@@ -1,0 +1,1 @@
+backend involves database storing , any free cloud service that we would be using and the dataset that would be stores to analyze the person.
