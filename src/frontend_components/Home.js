@@ -1,11 +1,6 @@
 import React from 'react'
-import yourImage from './home.jpg'
 import chirag from './team_pics/chirag.png'
 import ria from './team_pics/ria.png'
-import saurav from './team_pics/saurav.png'
-import arushi from './team_pics/arushi.png'
-import rahul from './team_pics/rahul.png'
-import malhar from './team_pics/malhar.png'
 
 function Home() {
   return (
@@ -104,16 +99,8 @@ function Home() {
                 <div className="row">
                     <div className="col-lg-2" style={{backgroundImage: `url(${chirag})`, backgroundSize: 'cover', display: 'flex', justifyContent: 'center', alignItems: 'center', height:"100px", margin:"2px", width:"100px"}}></div>
                     <div className="col-lg-2" style={{backgroundImage: `url(${ria})`, backgroundSize: 'cover', display: 'flex', justifyContent: 'center', alignItems: 'center', height:"100px", margin:"2px", width:"100px"}}></div>
-                    <div className="col-lg-2" style={{backgroundImage: `url(${saurav})`, backgroundSize: 'cover', display: 'flex', justifyContent: 'center', alignItems: 'center', height:"100px", margin:"2px", width:"100px"}}></div>
-                    <div className="col-lg-2" style={{backgroundImage: `url(${rahul})`, backgroundSize: 'cover', display: 'flex', justifyContent: 'center', alignItems: 'center', height:"100px", margin:"2px", width:"100px"}}></div>
-                    <div className="col-lg-2" style={{backgroundImage: `url(${arushi})`, backgroundSize: 'cover', display: 'flex', justifyContent: 'center', alignItems: 'center', height:"100px", margin:"2px", width:"100px"}}></div>
-                    <div className="col-lg-2" style={{backgroundImage: `url(${malhar})`, backgroundSize: 'cover', display: 'flex', justifyContent: 'center', alignItems: 'center', height:"100px", margin:"2px", width:"100px"}}></div>
                     <div className='col-lg-2' style={{fontFamily: 'Arial, sans-serif', fontSize: '16px', fontWeight: 'bold', color: 'black'}}>Chirag Vats</div>
                     <div className='col-lg-2' style={{fontFamily: 'Arial, sans-serif', fontSize: '16px', fontWeight: 'bold', color: 'black'}}>Ria Chandra</div>
-                    <div className='col-lg-2' style={{fontFamily: 'Arial, sans-serif', fontSize: '16px', fontWeight: 'bold', color: 'black'}}>Saurav Kediaa</div>
-                    <div className='col-lg-2' style={{fontFamily: 'Arial, sans-serif', fontSize: '16px', fontWeight: 'bold', color: 'black'}}>Rahul CV</div>
-                    <div className='col-lg-2' style={{fontFamily: 'Arial, sans-serif', fontSize: '16px', fontWeight: 'bold', color: 'black'}}>Arushi Girdhar</div>
-                    <div className='col-lg-2' style={{fontFamily: 'Arial, sans-serif', fontSize: '16px', fontWeight: 'bold', color: 'black'}}>Malhar Konde</div>
                 </div>
                 </div>
             </div>
