@@ -1,0 +1,1 @@
+scripts for recognizing the person and all that stuff, main logic of our applicatio
