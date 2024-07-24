@@ -40,13 +40,13 @@ const Analyze = () => {
 
     useEffect(() => {
         const firebaseConfig = {
-            apiKey: "AIzaSyCX9RkRgsItwXHCaSHDPVu9GERS9HvQx8c",
-  authDomain: "face-recognition-system-4ef22.firebaseapp.com",
-  projectId: "face-recognition-system-4ef22",
-  storageBucket: "face-recognition-system-4ef22.appspot.com",
+            apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
   messagingSenderId: "1049829103446",
-  appId: "1:1049829103446:web:b37f0ef8ceaa5c5e2b28f7",
-  measurementId: "G-8MH61KEDZX"
+  appId: "",
+  measurementId: ""
         };
         initializeApp(firebaseConfig);
     }, []);
